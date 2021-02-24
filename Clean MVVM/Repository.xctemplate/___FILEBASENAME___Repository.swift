@@ -23,7 +23,7 @@ protocol ___VARIABLE_sceneName___Repository {
     func doSomething() -> Single<Void>
 }
 
-struct ___VARIABLE_sceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository {
+class ___VARIABLE_sceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository {
     static var shared = ___VARIABLE_sceneName___RepositoryImpl()
     private init() {}
     
