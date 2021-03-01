@@ -15,7 +15,7 @@ protocol ___VARIABLE_sceneName___RepositoryInjectable {
 
 extension ___VARIABLE_sceneName___RepositoryInjectable {
     var ___VARIABLE_lowcaseSceneName___Repository: ___VARIABLE_sceneName___Repository {
-        return ___VARIABLE_sceneName___RepositoryImpl()
+        return ___VARIABLE_sceneName___RepositoryImpl.shared
     }
 }
 
