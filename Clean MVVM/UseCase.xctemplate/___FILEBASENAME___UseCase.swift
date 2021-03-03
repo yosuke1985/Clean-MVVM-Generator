@@ -10,7 +10,7 @@ import RxCocoa
 import RxSwift
 
 enum ___VARIABLE_sceneName___UseCaseResult {
-    case success()
+    case success(element: ANY)
     case failure(errorType: ErrorType)
     
     enum ErrorType {
@@ -29,13 +29,13 @@ extension ___VARIABLE_sceneName___UseCaseInjectable {
 }
 
 protocol ___VARIABLE_sceneName___UseCase {
-    func doSomething() -> Single<Void>
+    func doSomething() -> Single<___VARIABLE_sceneName___UseCaseResult>
 }
 
 class ___VARIABLE_sceneName___UseCaseImpl: ___VARIABLE_sceneName___UseCase {
     let bag = DisposeBag()
     
-    func doSomething() -> Single<Void> {
-        return Single<Void>.just(())
+    func doSomething() -> Single<___VARIABLE_sceneName___UseCaseResult> {
+        return Single<___VARIABLE_sceneName___UseCaseResult>.never()
     }
 }
