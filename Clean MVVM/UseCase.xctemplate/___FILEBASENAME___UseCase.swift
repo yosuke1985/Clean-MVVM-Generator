@@ -29,13 +29,13 @@ extension ___VARIABLE_sceneName___UseCaseInjectable {
 }
 
 protocol ___VARIABLE_sceneName___UseCase {
-    func doSomething() -> Single<___VARIABLE_sceneName___UseCaseResult>
+    func ___VARIABLE_lowcaseSceneName___() -> Single<___VARIABLE_sceneName___UseCaseResult>
 }
 
 class ___VARIABLE_sceneName___UseCaseImpl: ___VARIABLE_sceneName___UseCase {
     let bag = DisposeBag()
     
-    func doSomething() -> Single<___VARIABLE_sceneName___UseCaseResult> {
+    func ___VARIABLE_lowcaseSceneName___() -> Single<___VARIABLE_sceneName___UseCaseResult> {
         return Single<___VARIABLE_sceneName___UseCaseResult>.never()
     }
 }
