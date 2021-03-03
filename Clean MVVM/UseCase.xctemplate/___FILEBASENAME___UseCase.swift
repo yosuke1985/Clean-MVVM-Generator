@@ -9,6 +9,15 @@ import UIKit
 import RxCocoa
 import RxSwift
 
+enum ___VARIABLE_sceneName___UseCaseResult {
+    case success()
+    case failure(errorType: ErrorType)
+    
+    enum ErrorType {
+        case someError
+    }
+}
+
 protocol ___VARIABLE_sceneName___UseCaseInjectable {
     var ___VARIABLE_lowcaseSceneName___UseCaseImpl: ___VARIABLE_sceneName___UseCase { get }
 }
@@ -24,6 +33,7 @@ protocol ___VARIABLE_sceneName___UseCase {
 }
 
 class ___VARIABLE_sceneName___UseCaseImpl: ___VARIABLE_sceneName___UseCase {
+    let bag = DisposeBag()
     
     func doSomething() -> Single<Void> {
         return Single<Void>.just(())

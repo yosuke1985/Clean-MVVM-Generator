@@ -24,6 +24,7 @@ protocol ___VARIABLE_sceneName___Repository {
 }
 
 class ___VARIABLE_sceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository {
+    let bag = DisposeBag()
     static var shared = ___VARIABLE_sceneName___RepositoryImpl()
     private init() {}
     
