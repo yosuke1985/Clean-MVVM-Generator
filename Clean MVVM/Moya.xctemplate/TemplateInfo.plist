@@ -12,20 +12,6 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The locase name of the scene to create </string>
-			<key>Identifier</key>
-			<string>lowcaseSceneName</string>
-			<key>Name</key>
-			<string>LowCase New Scene Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
-			<key>Description</key>
 			<string>The name of the scene to create</string>
 			<key>Identifier</key>
 			<string>sceneName</string>
@@ -48,13 +34,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Error</string>
+			<string>___VARIABLE_sceneName:identifier___APIClient</string>
 			<key>Description</key>
 			<string>The interactor name</string>
 			<key>Identifier</key>
-			<string>ErrorName</string>
+			<string>MoyaName</string>
 			<key>Name</key>
-			<string>Error Name:</string>
+			<string>Moya Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>

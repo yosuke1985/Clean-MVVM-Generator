@@ -10,11 +10,11 @@ import RxCocoa
 import RxSwift
 
 protocol ___VARIABLE_sceneName___RepositoryInjectable {
-    var ___VARIABLE_lowcaseSceneName___Repository: ___VARIABLE_sceneName___Repository { get }
+    var ___VARIABLE_lowcaseSceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository { get }
 }
 
 extension ___VARIABLE_sceneName___RepositoryInjectable {
-    var ___VARIABLE_lowcaseSceneName___Repository: ___VARIABLE_sceneName___Repository {
+    var ___VARIABLE_lowcaseSceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository {
         return ___VARIABLE_sceneName___RepositoryImpl.shared
     }
 }
