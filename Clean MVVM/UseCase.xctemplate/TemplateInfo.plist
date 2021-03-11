@@ -68,6 +68,6 @@
 	<key>SortOrder</key>
 	<string>2</string>
 	<key>Summary</key>
-	<string>This generates a new interactor using Uncle Bob&apos;s clean architecture. Your business logic goes here.</string>
+	<string>This is UseCase template</string>
 </dict>
 </plist>
