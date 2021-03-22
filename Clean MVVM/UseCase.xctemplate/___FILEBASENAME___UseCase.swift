@@ -10,11 +10,11 @@ import RxCocoa
 import RxSwift
 
 enum ___VARIABLE_sceneName___UseCaseResult {
-    case success(element: ANY)
+    case success(<#element name#>: <#class name#>)
     case failure(errorType: ErrorType)
     
     enum ErrorType {
-        case someError
+        case <#error name#>
     }
 }
 

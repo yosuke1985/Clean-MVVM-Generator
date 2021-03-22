@@ -10,11 +10,12 @@ import Moya
 
 enum ___VARIABLE_sceneName___APIClient {
     case getHoge(userId: String)
+    case <#some request name#>
 }
 
 extension ___VARIABLE_sceneName___APIClient: TargetType {
     var baseURL: URL {
-        return "http://www.hoge.com"
+        return "<#url#>"
     }
     
     var path: String {
