@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
 	<key>Description</key>
-	<string>Repository</string>
+	<string>UseCase Unit Test</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -48,13 +48,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Repository</string>
+			<string>___VARIABLE_sceneName:identifier___Spec</string>
 			<key>Description</key>
-			<string>The repository name</string>
+			<string>The usecase unit test name</string>
 			<key>Identifier</key>
-			<string>RepositoryName</string>
+			<string>TestName</string>
 			<key>Name</key>
-			<string>Repository Name:</string>
+			<string>Test Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -68,6 +68,6 @@
 	<key>SortOrder</key>
 	<string>2</string>
 	<key>Summary</key>
-	<string>This generates a new Repository</string>
+	<string>This generates a new Test</string>
 </dict>
 </plist>

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ___VARIABLE_sceneName___Error: Error {
+enum ___VARIABLE_sceneName___Error: Error, Equatable {
     case <#some error#>
 }
 

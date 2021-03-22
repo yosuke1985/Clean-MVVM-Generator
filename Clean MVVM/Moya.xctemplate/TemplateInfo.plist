@@ -36,7 +36,7 @@
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___APIClient</string>
 			<key>Description</key>
-			<string>The interactor name</string>
+			<string>The moya name</string>
 			<key>Identifier</key>
 			<string>MoyaName</string>
 			<key>Name</key>
