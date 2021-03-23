@@ -26,26 +26,26 @@ class ___VARIABLE_sceneName___UseCaseSpec: QuickSpec {
                 beforeEach {
                     bag = DisposeBag()
 
-                    scheduler.createColdObservable([.next(10, <#input object#>),
-                                                    .next(20, <#input object#>),
-                                                    .next(30, <#input object#>),
-                                                    .next(40, <#input object#>),
-                                                    .next(60, <#input object#>)])
+                    scheduler.createColdObservable([.next(10, <#Object#>),
+                                                    .next(20, <#Object#>),
+                                                    .next(30, <#Object#>),
+                                                    .next(40, <#Object#>),
+                                                    .next(60, <#Object#>)])
                         .flatMap { inputObject in
-                            ___VARIABLE_lowcaseSceneName___UseCase.<#usecase method#>(<#arg#>: inputObject)
+                            ___VARIABLE_lowcaseSceneName___UseCase.<#method#>(<#arg#>: inputObject)
                         }
                         .bind(to: ___VARIABLE_lowcaseSceneName___OutputRelay)
                         .disposed(by: bag)
                 }
 
-                it("___VARIABLE_sceneName___UseCase") {
+                it("___VARIABLE_sceneName___UseCase's Unit Test") {
                     scheduler.start()
                     expect(___VARIABLE_lowcaseSceneName___OutputRelay.events).to(equal([
-                        .next(10, ___VARIABLE_sceneName___UseCaseResult.failure(errorType: <#usecase error#>)),
-                        .next(20, ___VARIABLE_sceneName___UseCaseResult.success(<#arg name#>: <#usecase output#> )),
-                        .next(30, ___VARIABLE_sceneName___UseCaseResult.failure(errorType: <#usecase error#>)),
-                        .next(40, ___VARIABLE_sceneName___UseCaseResult.success(<#arg name#>: <#usecase output#>)),
-                        .next(60, ___VARIABLE_sceneName___UseCaseResult.success(<#arg name#>: <#usecase output#>)),
+                        .next(10, ___VARIABLE_sceneName___UseCaseResult.failure(errorType: <#error#>)),
+                        .next(20, ___VARIABLE_sceneName___UseCaseResult.success(<#arg#>: <#Object#> )),
+                        .next(30, ___VARIABLE_sceneName___UseCaseResult.failure(errorType: <#error#>)),
+                        .next(40, ___VARIABLE_sceneName___UseCaseResult.success(<#arg#>: <#Object#>)),
+                        .next(60, ___VARIABLE_sceneName___UseCaseResult.success(<#arg#>: <#Object#>)),
                     ]
                     ))
                 }

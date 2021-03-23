@@ -8,13 +8,13 @@
 import Foundation
 
 enum ___VARIABLE_sceneName___Error: Error, Equatable {
-    case <#some error#>
+    case <#error#>
 }
 
 extension ___VARIABLE_sceneName___Error: LocalizedError {
     var errorDescription: String? {
         switch self {
-        case <#some error#>:
+        case <#error#>:
             return "<#error description#>"
         }
     }

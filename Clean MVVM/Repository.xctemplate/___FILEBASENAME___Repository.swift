@@ -20,7 +20,7 @@ extension ___VARIABLE_sceneName___RepositoryInjectable {
 }
 
 protocol ___VARIABLE_sceneName___Repository {
-    func <#method name#>() -> Single<<#Class Name#>>
+    func <#method#>() -> Single<<#Type#>>
 }
 
 class ___VARIABLE_sceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository {
@@ -28,7 +28,7 @@ class ___VARIABLE_sceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository
     static var shared = ___VARIABLE_sceneName___RepositoryImpl()
     private init() {}
     
-    func <#method name#>() -> Single<<#Class Name#>> {
-        return .just(<#Class Name Object#>)
+    func <#method#>() -> Single<<#Type#>> {
+        return .just(<#Object#>)
     }
 }

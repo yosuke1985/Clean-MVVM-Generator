@@ -10,7 +10,7 @@ import Moya
 
 enum ___VARIABLE_sceneName___APIClient {
     case getHoge(userId: String)
-    case <#some request name#>
+    case <#request#>
 }
 
 extension ___VARIABLE_sceneName___APIClient: TargetType {
