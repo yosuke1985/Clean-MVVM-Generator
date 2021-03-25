@@ -11,6 +11,7 @@ import RxCocoa
 import RxSwift
 import RxTest
 import XCTest
+@testable import ___PROJECTNAME___
 
 class ___VARIABLE_sceneName___RepositorySpec: QuickSpec, ___VARIABLE_sceneName___RepositoryInjectable {
     override func spec() {
