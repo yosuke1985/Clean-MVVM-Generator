@@ -14,7 +14,7 @@ enum ___VARIABLE_sceneName___Error: Error, Equatable {
 extension ___VARIABLE_sceneName___Error: LocalizedError {
     var errorDescription: String? {
         switch self {
-        case <#error#>:
+        case .<#error#>:
             return "<#error description#>"
         }
     }

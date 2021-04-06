@@ -9,16 +9,16 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extension FirstViewTransitionable {
-    func toFirstView() {
-        let vc = FirstBuilder().build()
+	<string>extension <#Class#>ViewTransitionable {
+    func to<#Class#>View() {
+        let vc = <#Class#>Builder().build()
         viewController?.present(vc, animated: true, completion: nil)
     }
 }
 
-protocol WhichGymViewTransitionable {
+protocol <#Class#>ViewTransitionable {
     var viewController: UIViewController? { get set }
-    func toWhichGymView()
+    func to<#Class#>View()
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
