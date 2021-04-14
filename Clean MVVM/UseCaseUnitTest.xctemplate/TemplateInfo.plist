@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Spec</string>
+			<string>___VARIABLE_sceneName:identifier___UseCaseSpec</string>
 			<key>Description</key>
 			<string>The usecase unit test name</string>
 			<key>Identifier</key>
